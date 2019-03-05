@@ -1,0 +1,34 @@
+body {
+    background-image: linear-gradient(rgb(197, 192, 192), rgb(153, 99, 153));}
+@font-face {
+    font-family: "paris";
+    src: url(../images/CFParis-Regular.ttf);
+  }
+.jumbotron {
+    background-image: url(../images/paris-train.jpg);
+    background-size: 100% 100%;    
+    font-family: "paris";
+    font-size: 200px;
+    color: rgb(173, 122, 173);
+    text-shadow:
+    -1px -1px 0 #333,
+    1px -1px 0 #333,
+    -1px 1px 0 #333,
+    1px 1px 0 #333;
+}
+h1 {
+    font-size: 75px;
+}
+@font-face {
+    font-family: "train-schedule";
+    src: url(../images/SCOREBOARD.ttf);
+  }
+#train-schedule {
+    font-family: "train-schedule" !important;
+    font-size: 25px;
+}
+.card-body {   
+    word-break: break-all;
+}
+
+
