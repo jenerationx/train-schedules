@@ -12,89 +12,83 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-dark bg-dark text-light">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <h1 class="mb-3">The Next Train To Paris</h1>
+            </div>
+        </div>
+    </nav>
+    <header class="hero-image">
+    </header>
+    <br>
     <div class="container">
         <div class="row">
-            <div class="col-sm-10 offset-1">
-                <div class="jumbotron bg-dark">
-                    <h1 class="text-center">
-                        <strong>The Next Train To Paris</strong>
-                    </h1>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="card text-light border-0">
-                            <div class="card-header bg-dark">
-                                <strong>Train Schedule</strong>
-                            </div>
-                            <div class="card-body bg-secondary text-light" id="train-sign">
-                                <table class="table table-light table-hover">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Train Name</th>
-                                            <th scope="col">Destination</th>
-                                            <th scope="col">Frequency</th>
-                                            <th scope="col">Next Arrival</th>
-                                            <th scope="col">Minutes Away</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody id="train-schedule">
-                                        <tr>
-                                            <td id="name">Best Train Ever</td>
-                                            <td id="destination">Paris</td>
-                                            <td id="frequency">25 minutes</td>
-                                            <td id="next-arrival">10 minutes</td>
-                                            <td id="minutes-away">10 minutes</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
+            <div class="col-sm-12">
+                <div class="card text-light border-0">
+                    <div class="card-header bg-dark">
+                        <strong>Train Schedule</strong>
+                    </div>
+                    <div class="card-body bg-secondary text-light" id="train-sign">
+                        <table class="table table-light table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Train Name</th>
+                                    <th scope="col">Destination</th>
+                                    <th scope="col">Frequency</th>
+                                    <th scope="col">Next Arrival</th>
+                                    <th scope="col">Minutes Away</th>
+                                </tr>
+                            </thead>
+                            <tbody id="train-schedule">
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <br>
-                        <div class="card border-0">
-                            <div class="card-header bg-dark text-light">
-                                <strong>Add a Train</strong>
+            </div>
+            <div class="col-sm-12">
+                <br>
+                <div class="card border-0">
+                    <div class="card-header bg-dark text-light">
+                        <strong>Add a Train</strong>
+                    </div>
+                    <div class="card-body bg-secondary text-light" id="info-table">
+                        <form>
+                            <div class="form-group">
+                                <label for="input-name">Train Name</label>
+                                <input type="text" class="form-control" id="input-name"
+                                    placeholder="City of Lights Express">
                             </div>
-                            <div class="card-body bg-secondary text-light" id="info-table">
-                                <form>
-                                    <div class="form-group">
-                                        <label for="input-name">Train Name</label>
-                                        <input type="text" class="form-control" id="input-name"
-                                            placeholder="City of Lights Express">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="input-dest">Destination</label>
-                                        <input type="text" class="form-control" id="input-dest" placeholder="Paris">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="input-first">First Train (HH:MM)</label>
-                                        <input type="text" class="form-control" id="input-first" placeholder="19:30 - Use Military Time">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="input-frequency">Frequency (in minutes)</label>
-                                        <input type="text" class="form-control" id="input-frequency" placeholder="20">
-                                    </div>
-                                    <a href="#" class="btn btn-dark" id="submit">Submit</a>
-                                </form>
+                            <div class="form-group">
+                                <label for="input-dest">Destination</label>
+                                <input type="text" class="form-control" id="input-dest" placeholder="Paris">
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <label for="input-first">First Train (HH:MM)</label>
+                                <input type="text" class="form-control" id="input-first"
+                                    placeholder="19:30 - Use Military Time">
+                            </div>
+                            <div class="form-group">
+                                <label for="input-frequency">Frequency (in minutes)</label>
+                                <input type="text" class="form-control" id="input-frequency" placeholder="20">
+                            </div>
+                            <a href="#" class="btn btn-dark" id="submit">Submit</a>
+                        </form>
                     </div>
                 </div>
-                <footer class="row text-center">
-                    <div class="col-sm-12 text-center">
-                        <h5 class="footer">
-                            <small class="text-secondary">
-
-                            </small>
-                        </h5>
-                    </div>
-                </footer>
             </div>
         </div>
     </div>
+    <footer class="row text-center py-3">
+        <div class="col-sm-12 text-center">
+            <h5 class="footer">
+                <small class="text-secondary">
+                    Fabriqué par Jenny Sterlein
+                </small>
+            </h5>
+        </div>
+    </footer>
+
 
     <!-- jQuery JS -->
     <script src="https://code.jquery.com/jquery.js"></script>
