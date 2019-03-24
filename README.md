@@ -2,6 +2,8 @@
 
 In this assignment, I got to reminisce about my trip to Paris a few years ago.  Their metro system was the best I've ever seen and I loved taking the trains from one beautiful location to the next.   
 
+Live Demo here: https://jenerationx.github.io/train-schedules/
+
 Firebase Assignment - Train Scheduler (Basic - Recommended)
 
 Overview
